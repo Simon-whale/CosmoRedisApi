@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisCosmoApi", "RedisCosmoApi\RedisCosmoApi.csproj", "{36F34CA7-0AD3-426D-9336-1BAF57798C06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A404E1D4-389E-4A13-8440-35CF82EAB43D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36F34CA7-0AD3-426D-9336-1BAF57798C06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36F34CA7-0AD3-426D-9336-1BAF57798C06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36F34CA7-0AD3-426D-9336-1BAF57798C06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36F34CA7-0AD3-426D-9336-1BAF57798C06}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{36F34CA7-0AD3-426D-9336-1BAF57798C06} = {A404E1D4-389E-4A13-8440-35CF82EAB43D}
+	EndGlobalSection
+EndGlobal
