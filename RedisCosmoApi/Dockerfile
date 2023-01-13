@@ -5,9 +5,9 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["RedisCosmoApi/RedisCosmoApi.csproj", "RedisCosmoApi/"]
+COPY ["./RedisCosmoApi.csproj", "RedisCosmoApi/"]
 RUN dotnet restore "RedisCosmoApi/RedisCosmoApi.csproj"
-COPY . .
+COPY [".", "RedisCosmoApi"]
 WORKDIR "/src/RedisCosmoApi"
 RUN dotnet build "RedisCosmoApi.csproj" -c Release -o /app/build
 

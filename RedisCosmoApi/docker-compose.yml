@@ -1,0 +1,10 @@
+version: "3"
+services:
+  RedisCosmoApi:
+    image: rediscosmoapi
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - "3000:80"
+      - "44342:443"
