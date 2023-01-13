@@ -32,3 +32,7 @@ To remove the container you will need to run the following command
 ```
 docker-compose down
 ```
+
+What can I do in learning or improve the code 
+* partial Data queries
+
